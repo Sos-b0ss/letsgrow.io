@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-image: url("http://www.thekohlrabi.com/wp-content/uploads/2014/02/hd-gradient-green1.jpg");
+  height: 150px;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 3em;
+}
+
+.App-intro {
+  background-color: white;
+  background-size: auto;
+  font-size: 2em;
+  color: black;
+}
+
+button {
+  background-color: #F4595B;
+  border-radius: 8px;
+  border-bottom: 4px solid #C24648;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #FF7375;
+  border: none;
+  boder-radius: 8px;
+  border-bottom: 4px solid #C24648;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+}
+
+button:active {
+  background-color: #C24648;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #C24648;
+  color: #CCC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-sarif;
+  letter-spacing: 2px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

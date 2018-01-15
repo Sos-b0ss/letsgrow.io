@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './link-LMGTFU';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <p className="App-intro">
           Uhm.. This is awkward. We are still under development. Come back soon!
         </p>
+        <button />
       </div>
     );
   }
