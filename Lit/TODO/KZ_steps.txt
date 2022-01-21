@@ -1,0 +1,26 @@
+
+------------- L O A D - T O - K A N B A N - B O A R D -----------------
+
+These Steps Still Need Prioritazation:
+
+- begin writing front end for webapp and design site layout
+- transfer these steps to KZ.io
+- development cloud network design
+- continue using dev branch and commit all new releases under it
+- design landing page with wip information and templates
+- install docker on second linode machine to provision kibana IDS
+- pick out art on mui.com
+- configure firewall to filter traffic to and from backend
+- create load balancer for site traffic
+- begin writing back end for user account functionalities, bookmarking, and build creation assets
+- compile database of resellers that offer the growing equipment and which ones should be prioritized
+- start implementing apis for resellers (web redirect payments)
+- sanitize code, pentest site, and load stress test balancers
+- research possible gain from google adsense
+- research and impliment SEO stratagies
+- create budget plan and calculate any ROI or if keeping the webapp updated is a waste.
+- determine ownership agreement and licensing
+- purchase name licensing contract if we decide to make the tool public
+- apply SSL certs and create secure jumpbox for admin
+- apply for adsense and reseller affiliate accounts
+- open account for earnings
