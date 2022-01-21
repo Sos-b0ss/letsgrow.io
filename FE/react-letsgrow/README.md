@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Check here for more amazing mui infrastructure that we may be able to use: https://unpkg.com/@mui/material@latest/umd/material-ui.production.min.js
+
+Just follow the steps annotated here: https://github.com/mui-org/material-ui/tree/master/examples/cdn
