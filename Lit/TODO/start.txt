@@ -1,31 +1,28 @@
 
 This is meant to be the beginning few steps for planning out the webapp and make sure we choose the right stack:
 
-	- List design features we plan to use.
-	- Design backend [RESTAPI]
-	- Determine TTM for the tool, and how long we should allow ourselves for each step.
-	- Calculate the anticipated storage space that will be necessary and the cost of it.
-	- If the goal is to make profit off the web-app, we need to calculate how much we should be expecting to earn.
-
-		** Great resource to research Any tools alternatives: https://www.educba.com
+	- List design features and functions we plan to add to the tool.
+	- Design backend and how the front end will interface with it [RESTAPI]
+	- Determine time to maintain for the tool, and how long we should allow ourselves for each development step.
+	- Calculate possible cost for storage for the database and if we should make it offsite.
+	- If the goal is to make profit off the web-app, it would be nice to quantify approximate earnings from adsense and amazon api.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-	Research utilities for development, and where to focus
 	(anything with a * is reference for future dev.)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Source: https://rubygarage.org/blog/technology-stack-for-web-development
 
-	- Front-end:	 	 JavaScript [React], SASS*, Webpack*		 [SET]
-	- Back-end:	 	 python, RESTAPI 			 	 [SET]
-	- Security:		 kibana*					 [TBD] 
-	- Storage:		 Cloud (linode) Hybrid	 			 [SET]
-	- Web-server:		 Nginx*						 [TBD]
-	- Host:			 AWS*, Linode				         [SET]
-	- Automation Framework:	 Jest*, RSpec*		 	 	 	 [TBD]
-	- Repository:		 Github		 			 	 [SET]
+	- Front-end:		JavaScript [React], SASS*, Webpack*	[SET]
+	- Back-end:		python, RESTAPI				[SET]
+	- Security:		kibana*					[TBD] 
+	- Storage:		Cloud (linode) Hybrid			[SET]
+	- Web-server:		Nginx*					[TBD]
+	- Host:			AWS*, Linode				[SET]
+	- Automation Framework:	Jest*, RSpec*				[TBD]
+	- Repository:		Github					[SET]
 
 	- Utilities:		 Twitter, Cloudflare CDN, Cloudflare Web Optimization, G suite, Cloudflare Security, Gmail for business
 
