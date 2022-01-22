@@ -1,0 +1,41 @@
+
+> react-letsgrow@0.1.0 start /home/gr/dev/letsgrow.io/FE/react-letsgrow
+> react-scripts start
+
+(node:72950) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:72950) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+EACCES: permission denied, open '/home/gr/dev/letsgrow.io/FE/react-letsgrow/node_modules/.cache/.eslintcache'
+assets by path static/ 1.58 MiB
+  assets by path static/js/*.js 1.49 MiB
+    asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+    asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.93 KiB [emitted] 1 related asset
+  assets by path static/media/ 91.1 KiB
+    asset static/media/floral.589c40a87a7c60faa103.jpg 86.3 KiB [emitted] [immutable] [from: img/background/floral.jpg] (auxiliary name: main)
+    asset static/media/logo.989a72b070b1a93484d73097f84b9cfa.svg 4.78 KiB [emitted] (auxiliary name: main)
+asset index.html 5.47 KiB [emitted]
+asset asset-manifest.json 626 bytes [emitted]
+cached modules 1.36 MiB [cached] 104 modules
+runtime modules 31.4 KiB 15 modules
+modules by layer 11.9 KiB (javascript) 86.3 KiB (asset)
+  modules by path ./src/ 11.2 KiB
+    ./src/App.js 2.52 KiB [built] [code generated]
+    ./src/logo.svg 5.94 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css 2.77 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/runtime/getUrl.js 598 bytes [built] [code generated]
+  ./img/background/floral.jpg 42 bytes (javascript) 86.3 KiB (asset) [built] [code generated]
+
+ERROR in EACCES: permission denied, open '/home/gr/dev/letsgrow.io/FE/react-letsgrow/node_modules/.cache/.eslintcache'
+
+webpack 5.66.0 compiled with 1 error in 8149 ms
+
+┌───────────────────────────────────────────────────────────┐
+│                  npm update check failed                  │
+│            Try running with sudo or get access            │
+│           to the local update config store via            │
+│ sudo chown -R $USER:$(id -gn $USER) /home/web-app/.config │
+└───────────────────────────────────────────────────────────┘
