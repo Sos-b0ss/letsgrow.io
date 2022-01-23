@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-color: rgb(36, 92, 41);
+  color: white;
+}
+
+.App-logo {
+  height: 35vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 4s alternate;
+  }
+}
+
+.Navbar-title {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.App-header {
+  background-image: url("/img/background/floral.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #333333;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 1);
+  /*background-color: #447361;*/
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: #c8d1c4;
+}
+
+.App-link {
+  color: #c8d1c4;
+  display: block;
+  background-color: rgb(35, 107, 41);
+  box-shadow: 0.02em 0 black, 0 0.02em black, -0.02em 0 black, 0 -0.02em black;
+  padding: 20px;
+  font-size: 60px;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(1deg);
+  }
+  85% {
+    transform: rotate(2deg);
+  }
+  95% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+
+  /* original keyframe to do a 360 spin forever
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+*/
+}
