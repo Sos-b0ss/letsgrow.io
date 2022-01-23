@@ -1,0 +1,93 @@
+Version control Workflow:
+
+1. Mainline Development ("Always Be Integrating")
+
+	--few branches
+	--reletively small commits
+	--high-quality testing & QA standards
+
+C ---> C ---> C --[main branch] --->
+
+2. State, Release, and Feature Branches
+
+	--different types of branches
+	--..fulfill different types of jobs
+
+    C--->C--->C   C--->C      [feature branch]
+   /           \ /      \                      _
+  C------------>C------->C----[dev branch]----> |
+ /                        \                     | Long-Running branch
+C------------------------->C--[main branch]--->_|
+
+two main types of branches:
+	Long-running & Short-lived Branches
+
+Long-running:
+	--exist through the complete lifetime of the project
+	--often, they mirror "stages" in your dev life cycle
+	--common convention: no direct commits!
+
+Short-lived:
+	--for new features, bug fixes, refactoring, experiments...
+	--will be deleted after integration (merge/rebase)
+
+Popular branching strats:
+
+	--Github flow: Very simple, very lean: only one long-running branch ("main") + feature branches
+
+      feature              bugfix
+  C----->C----->C------->C   C
+ /                        \ / \
+C------------------------->C-->C--[main branch]--->
+
+
+	--Gitflow: more structure, more rules and long-running: "main" + "develop" with short lived: "features" "release" "hotfix"
+
+      C--->C--->C <---------------[feature branch]
+     /           \
+    /             \   C--->C <----[release branch]
+   /               \ /      \                      _
+  C---------------->C------->C----[dev branch]----> |
+ /                            \                     | Long-Running branch
+C----------------------------->C--[main branch]--->_|
+
+[features will always start from the develop branch, and will be merged back into develop. Develop is the starting point of any new releases, you open an entire new release branch do testing commit any bug fixes and then once its ready for production you merge it back into main and then add a tag on the release on main and then close the release branch.]
+
+when you want to develop on a tool using git you can fork the original repository and make your changes there, then create a pull request to have the rest of the team peer review the changes before actually commiting the merge.
+
+checkout: https://www.toolsqa.com/git/git-create-branch/ for more help.
+
+--------------------------------------------------------------------------------
+Git workflow manifest.
+
+I would say it would likely be best to work in a Git-flow structure just because we will be working with alot of moving part with the front end, and may end up wanting to bring in other team members. So as to avoid confusing the people we invite and allow them to work on set tasks within a branch rather than overwhelming them with the entire sites 'need to do' tasks.
+
+As well as possibly adopting a version convention like:
+
+[major].[minor].[release].[build]
+
+major: Really marketing decision. If we are willing to call the web-app version 1.0 and boils down to product decision. 
+
+minor: Starts from 0 whenever major is incremented. +1 for every version that goes public.
+
+release: Every time you hit a development milestone and release the product, even internally (e.g. to QA), increment this. This is especially important for communication between team members. Needless to say, never release the same 'release' twice (even internally). Reset to 0 upon minor++ or major++.
+
+build: Can be version revisions or bug fixes.
+
+[example: chrome: 83.0.4103.61]
+
+--------------------------------------------------------------------------------
+
+So for simplicity sake we should keep the repository structured as:
+
+Prod:
+	Where the production ready code will stay and be merged onto the live tool. [Major | X.0.0.0]
+
+dev:
+	A long running branch for the primary development of the webapp. [Minor | 0.X.0.0]
+
+feature:
+	A short running branch that will allow us to focus primarily on developing features before a release. [release | 0.0.X.0]
+
+release:
+	After QA this will have the code that is prepared to be release, and where we will squish bugs or issue patches. [build | 0.0.0.X]

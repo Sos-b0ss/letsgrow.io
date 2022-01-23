@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+
+Inspiration sites/features include:
+
+Investopedia: https://www.investopedia.com/
+	Feature(s): 
+		- Top nav bar animation, query option(spyglass), small humble branding on left side of nav bar.
+		- Educational resources
+		- very minimal and cleanly designed header
+
+PCpartpicker: https://pcpartpicker.com/
+	Feature(s):
+		- Small login/register buttons on the top right of the header
+		- Very straight forward Header with primary navigation (SIMPLE & DIRECT)
+		- Sleek animation when browse product navigation is clicked (Make sure it is when its clicked rather than hover)
+		- nightmode
+		- Build guides with explainations of premade builds as well as total costs and display of how many people are commenting on them.
+		- Completed builds (sense of community, and free educational resource)
+		- Builder tool allowing you to go through and design your build with a list of needed componants
+		- price trends/price drops
+
+growweedeasy: https://www.growweedeasy.com/
+	Feature(s):
+		- Menu button on the top left that brings open interactive side bar with links
+		- Plant doctor
+		- Newsletter, Glossary, About, Contact on the top right.
+		- slim footer containing affiliate disclosures and social media.
+		- Area to buy seeds / advertise seed distributors
